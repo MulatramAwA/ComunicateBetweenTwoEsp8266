@@ -3,7 +3,7 @@
 #include <ESP8266WebServer.h>
 #include <WiFiServer.h>
 static const char *ssid = "control-master";    // SSID
-WiFiClient _Client;//Conected TCP client.
+WiFiClient _Client;//Connected TCP client.
 WiFiServer server(23); //Define TCP server on port 23
 void setup() {
     Serial.begin(9600);
